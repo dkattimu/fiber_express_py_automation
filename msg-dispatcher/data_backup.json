@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "id": "33X4",
+      "name": "VA Scenario Generator",
+      "description": "Generates integrated equity-interest rate paths for modeling of VA business",
+      "model-document-date": "",
+      "last-modified": "",
+      "validated": "Yes"
+    },
+    {
+      "id": "33G1",
+      "name": "WL Pricing Model",
+      "description": "Pricing of LPX for X = 15, 20, 100",
+      "model-document-date": "",
+      "last-modified": "",
+      "validated": "Yes"
+    },
+    {
+      "id": "45B2",
+      "name": "Model for Everything",
+      "description": "A model that saves the universe, and humanity",
+      "model-document-date": "",
+      "last-modified": "",
+      "validated": "No"
+    }
+  ]
+}

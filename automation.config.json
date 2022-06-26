@@ -1,0 +1,6 @@
+{
+   "PORTS":{
+      "MSG_DISPATCHER": 5001,
+      "VIEW_ENGINE": 5003
+   }
+}

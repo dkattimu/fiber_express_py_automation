@@ -1,0 +1,4 @@
+node_modules
+.pytest_casche
+.venv
+.vscode

@@ -1,0 +1,16 @@
+{
+  "name": "prod-env-watcher",
+  "version": "1.0.0",
+  "description": "## Prerequisites - Consists of both environment watcher (simulated here) and a confluence (documentation) watcher(this is not simulated here but existence will be assumed)  - There exists a mechanism to identify production environments e.g. a .mrm.env.toml file that will hold config of environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon --exec python3 -i ./src/env-watcher.py --watch ./src --ext py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

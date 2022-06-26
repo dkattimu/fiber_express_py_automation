@@ -1,0 +1,19 @@
+extends layout.pug 
+include mixins/_tableRow
+
+block table-content
+    div 
+        table 
+            thead   
+                tr 
+                    th Model ID 
+                    th Model Name 
+                    th Model Description
+                    th Last Modified (Model)
+                    th Validated 
+                    th Last Modified (Documentation)
+            tbody 
+                each modelInfo in modelInfos
+                   //console.log(modelInfo)
+                   +tableRow(modelInfo)
+                 

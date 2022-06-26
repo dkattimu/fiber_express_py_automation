@@ -1,0 +1,8 @@
+mixin tableRow(modelInfo)
+    tr 
+        td #{modelInfo.id}
+        td #{modelInfo.name}
+        td #{modelInfo.description}
+        td #{modelInfo['last-modified']}
+        td #{modelInfo.validated}
+        td #{modelInfo['model-document-date']}
